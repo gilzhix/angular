@@ -11,7 +11,8 @@ export class AppComponent {
   items=['gilbert', 'melissa', 'david', 'nicoalas'];
 
   addItem() { 
-    this.items.push('nuevo item')
+    this.items.push(this.title)
+  
   }
 
   deleteItem(index: number) {
