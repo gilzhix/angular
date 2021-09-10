@@ -5,6 +5,21 @@
   papito mi rey
 </div>
 
+<div *ngIf="title === 'Melissa'">
+  Hola mi amor
+</div>
+
+<div *ngIf="title === 'David'">
+  Hola david 
+</div>
+
+<div [ngSwitch]="title">
+<P *ngSwitchCase="'Gilbert'"> papito mi rey </P>
+<P *ngSwitchCase="'Melissa'">Hola mi amor </P>
+<P *ngSwitchCase="'David'">Hola david </P>
+<p *ngSwitchDefault>No Hay match</p>
+</div>
+
 <button (click)= "addItem()" > add item </button>
 
 
