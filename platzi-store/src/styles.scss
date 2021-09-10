@@ -14,4 +14,20 @@ body {
         
         grid-template-columns: repeat(3, 1fr);
     }
+    
+@media (min-width: 768px){
+    .product-grid{
+        
+        grid-template-columns: repeat(3, 2fr);
+    }
+@media (min-width: 1024px){
+    .product-grid{
+        
+        grid-template-columns: repeat(4, 2fr);
+    }
+    
+}
+    
+
+}
 }
