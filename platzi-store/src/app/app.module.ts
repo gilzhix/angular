@@ -10,7 +10,12 @@ import { ExponentialPipe } from './exponential.pipe';
 import { HighlightDirective } from './highlight.directive';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
-import { ContactComponent } from './contact/contact.component'
+import { ContactComponent } from './contact/contact.component';
+import { BannerComponent } from './banner/banner.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { DemoComponent } from './demo/demo.component';
+
 
 
 @NgModule({
@@ -22,7 +27,12 @@ import { ContactComponent } from './contact/contact.component'
     HighlightDirective,
     HomeComponent,
     ProductsComponent,
-    ContactComponent
+    ContactComponent,
+    BannerComponent,
+    HeaderComponent,
+    FooterComponent,
+    DemoComponent
+    
   ],
   imports: [
     BrowserModule,
