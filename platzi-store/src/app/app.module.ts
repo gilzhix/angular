@@ -16,6 +16,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DemoComponent } from './demo/demo.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { LayoutComponent } from './layout/layout.component';
 
 
 
@@ -33,7 +35,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HeaderComponent,
     FooterComponent,
     DemoComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ProductDetailComponent,
+    LayoutComponent
     
   ],
   imports: [

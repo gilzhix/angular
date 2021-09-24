@@ -8,8 +8,9 @@
   <div class="product_price">
     <strong>{{product.price | currency:"COP":'symbol':'3.0'}}</strong>
     <p> {{product.description | slice:0:20 }}</p>
-    
+    <a [routerLink]="['/products/', product.id]" >ver detalle</a>
     <button (click)="addCart()">Aagregar al carrito</button>
+    
   </div>
 
 </div>
